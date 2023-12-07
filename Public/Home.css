@@ -1,0 +1,19 @@
+/** @format */
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.pokemon-card {
+  text-align: center;
+  margin: 10px;
+}
+
+.pokemon-image {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
