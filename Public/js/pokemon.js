@@ -2,7 +2,7 @@
 
 async function obterDadosDeTodosOsPokemon() {
   try {
-    const resposta = await fetch("https://pokeapi.co/api/v2/pokemon?limit=386");
+    const resposta = await fetch("https://pokeapi.co/api/v2/pokemon?limit=220");
 
     if (!resposta.ok) {
       throw new Error(`Erro HTTP! Status: ${resposta.status}`);
